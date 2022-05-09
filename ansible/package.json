@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "app": "file:../../../var/lib/jenkins/workspace/myappcd/app"
+  }
+}

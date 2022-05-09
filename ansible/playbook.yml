@@ -1,0 +1,5 @@
+---
+-name: "disable selinux"
+ hosts: localhost
+    selinux:
+     state=disabled

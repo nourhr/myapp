@@ -1,0 +1,7 @@
+- name: running npm install
+  shell: npm install /var/lib/jenkins/workspace/myappcd/app
+#buid project
+- name: build app
+  shell: ng build --prod && chmod 777 -R /var/lib/jenkins/workspace/myappcd/app
+- name : serve project
+  shell: ng serve
